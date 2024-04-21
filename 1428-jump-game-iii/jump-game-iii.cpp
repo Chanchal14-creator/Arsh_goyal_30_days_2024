@@ -1,6 +1,14 @@
 class Solution {
 
 public:
+    
+    Solution() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    wcin.tie(nullptr);
+    cout.tie(nullptr);
+    }
+    
     bool canReach(vector<int>& arr, int start) {
         int N=arr.size();
         vector<int> v(N,0);
